@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Taehyung Properti — Jual & Sewa Rumah</title>
+  <meta name="description" content="Taehyung Properti — pilihan rumah nyaman dan properti investasi. Temukan hunian yang sesuai kebutuhan Anda." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+
+  <header>
+    <div class="container header-inner">
+      <h1 class="site-title">Taehyung Properti</h1>
+      <nav aria-label="Navigasi utama">
+        <ul class="nav-list">
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#Properti">Properti</a></li>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <h2 class="hero-title hero-title--serif">Rumah Impian Anda<span class="highlight">yang Nyaman</span></h2>
+        <p class="hero-subtitle">Koleksi properti elegan dan hangat — desain modern, lokasi strategis, layanan ramah.</p>
+        <p class="hero-tagline">• Keamanan transaksi • Pilihan terverifikasi • Dukungan KPR</p>
+        <div class="hero-ctas">
+          <a class="btn" href="#Properti">Telusuri Properti</a>
+          <a class="btn btn-secondary" href="#">Hubungi Kami</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="Properti" class="">
+      <div class="container">
+        <h2>Properti Terbaru</h2>
+
+        <div class="property-grid">
+          <article class="property-card">
+            <figure>
+              <img src="RumahMinimalis.jpg" alt="Rumah minimalis di Semarang" loading="lazy" width="800" height="450">
+              <figcaption>Rumah Minimalis — Semarang</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3>Rumah Minimalis di Semarang</h3>
+              <p class="price">Rp 850.000.000</p>
+              <p class="meta">3 kamar tidur • 2 kamar mandi • 120 m²</p>
+              <a class="btn-detail" href="#">Detail</a>
+            </div>
+          </article>
+
+          <article class="property-card">
+            <figure>
+              <img src="ApartemenMewah.jpg" alt="Apartemen mewah di Jakarta" loading="lazy" width="800" height="450">
+              <figcaption>Apartemen Mewah — Jakarta</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3>Apartemen Mewah di Jakarta</h3>
+              <p class="price">Rp 1.200.000.000</p>
+              <p class="meta">2 kamar tidur • 1 kamar mandi • 90 m²</p>
+              <a class="btn-detail" href="#">Detail</a>
+            </div>
+          </article>
+
+          <article class="property-card">
+            <figure>
+              <img src="VillaBali.jpg" alt="Villa nyaman di Bali" loading="lazy" width="800" height="450">
+              <figcaption>Villa Nyaman — Bali</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3>Villa Nyaman di Bali</h3>
+              <p class="price">Rp 2.500.000.000</p>
+              <p class="meta">4 kamar tidur • 3 kamar mandi • 200 m²</p>
+              <a class="btn-detail" href="#">Detail</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Taehyung Properti | Semua hak dilindungi</p>
+    </div>
+  </footer>
+
+  <script>
+    // animasi masuk sederhana untuk hero
+    document.addEventListener('DOMContentLoaded', function(){
+      var c = document.querySelector('.hero .container');
+      if (c) setTimeout(function(){ c.classList.add('loaded'); }, 120);
+    });
+  </script>
+</body>
+</html>
